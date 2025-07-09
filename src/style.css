@@ -1,0 +1,85 @@
+/* ---------- Base (mobile) ---------- */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Main wrapper: vertical on mobile */
+.grid {
+  display: block;                /* items stack */
+}
+
+/* Each full-height section */
+.section {
+  height: 100vh;
+}
+
+/* Skills sub-grid stays two-row on any size */
+.grid.skills {
+  display: grid;
+  grid-template-areas:
+    "heading"
+    "content1"
+    "content2";
+  gap: 2rem;
+}
+
+/* Project list: one column on mobile */
+.project {
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: 1fr;            /* 1-col mobile */
+  grid-template-areas:
+    "one"
+    "two"
+    "three";
+}
+
+/* ---------- Breakpoints ---------- */
+/* Stack changes -> 2-col layout at 640 px up */
+@media (min-width: 640px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Skill headings side-by-side once there’s room */
+  .grid.skills {
+    grid-template-areas:
+      "heading  heading"
+      "content1 content2";
+  }
+}
+
+/* Project cards jump to 3-cols at laptop (1024 px) */
+@media (min-width: 1024px) {
+  .project {
+    grid-template-columns: repeat(3, 1fr);  /* 3-col desktop */
+    grid-template-areas: "one two three";
+  }
+}
+/* 1️⃣ Link (or any element) that got display:list-item somewhere */
+a { list-style: none; }           /* removes bullet/arrow */
+a::marker { content: none; }      /* cross-browser reset */
+
+/* 2️⃣ Link is inside a summary/details disclosure */
+summary::-webkit-details-marker,
+summary::marker {                 /* Firefox uses ::marker */
+  display: none;                  /* or content:none;     */
+}
+.hash{
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: 1fr;            /* 1-col mobile */
+  grid-template-areas:
+    "one"
+    "two"
+    "three"
+    "four";
+}
+@media(min-width:1024px) {
+  .hash{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "one two four"
+                         "three three four";
+  }
+}
