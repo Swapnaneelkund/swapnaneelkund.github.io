@@ -57,19 +57,17 @@ body {
     grid-template-areas: "one two three";
   }
 }
-/* 1️⃣ Link (or any element) that got display:list-item somewhere */
-a { list-style: none; }           /* removes bullet/arrow */
-a::marker { content: none; }      /* cross-browser reset */
+a { list-style: none; }          
+a::marker { content: none; }      
 
-/* 2️⃣ Link is inside a summary/details disclosure */
 summary::-webkit-details-marker,
-summary::marker {                 /* Firefox uses ::marker */
-  display: none;                  /* or content:none;     */
+summary::marker {                 
+  display: none;                  
 }
 .hash{
   display: grid;
-  gap: 4rem;
-  grid-template-columns: 1fr;            /* 1-col mobile */
+  gap: 2.5rem;
+  grid-template-columns: 1fr;           
   grid-template-areas:
     "one"
     "two"
