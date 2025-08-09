@@ -3,17 +3,14 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-/* Main wrapper: vertical on mobile */
 .grid {
-  display: block;                /* items stack */
+  display: block;                
 }
 
-/* Each full-height section */
 .section {
   height: 100vh;
 }
 
-/* Skills sub-grid stays two-row on any size */
 .grid.skills {
   display: grid;
   grid-template-areas:
@@ -23,11 +20,10 @@ body {
   gap: 2rem;
 }
 
-/* Project list: one column on mobile */
 .project {
   display: grid;
   gap: 4rem;
-  grid-template-columns: 1fr;            /* 1-col mobile */
+  grid-template-columns: 1fr;            
   grid-template-areas:
     "one"
     "two"
@@ -42,7 +38,6 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  /* Skill headings side-by-side once there’s room */
   .grid.skills {
     grid-template-areas:
       "heading  heading"
@@ -50,10 +45,9 @@ body {
   }
 }
 
-/* Project cards jump to 3-cols at laptop (1024 px) */
 @media (min-width: 1024px) {
   .project {
-    grid-template-columns: repeat(3, 1fr);  /* 3-col desktop */
+    grid-template-columns: repeat(3, 1fr);  
     grid-template-areas: "one two three";
   }
 }

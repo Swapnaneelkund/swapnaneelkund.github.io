@@ -1,358 +1,493 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SwapnaneelKundu</title>
-    <link href="./src/output.css" rel="stylesheet">
-    <link rel="stylesheet" href="./src/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-
-</head>
-<body class="w-full">
-<main>  
-  <section class="grid">
+    <link href="./src/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="w-full">
+    <main>
+      <section class="grid">
         <!-- Picture Section -->
-        <div class="section bg-cover bg-center bg-red-200" style="background-image: url('./images/image.png');">
-            <!-- This div will be red if the image fails -->
+        <div
+          class="section bg-cover bg-center bg-red-200"
+          style="background-image: url(&quot;./images/image.png&quot;)"
+        >
+          <!-- This div will be red if the image fails -->
         </div>
         <!-- Name Section -->
-        <div class="section flex flex-col justify-center items-center bg-[#FAF6E9]">
-            <h1 class="text-3xl text-center font-['Poppins']"><strong>SWAPNANEEL KUNDU</strong></h1>
-            <p class="text-center font-['Poppins']">Software Engineer | Full MERN Stack Developer</p>
-            <a href="mailto:swapnaneelkundu2@gmail.com">
-              <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 hover:scale-105 transition-transform font-['Poppins']">
-                Reach out
-              </button>
-            </a>
+        <div
+          class="section flex flex-col justify-center items-center bg-[#FAF6E9]"
+        >
+          <h1 class="text-3xl text-center font-['Poppins']">
+            <strong>SWAPNANEEL KUNDU</strong>
+          </h1>
+          <p class="text-center font-['Poppins']">
+            Software Engineer | Full MERN Stack Developer
+          </p>
+          <a href="mailto:swapnaneelkundu2@gmail.com">
+            <button
+              class="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 hover:scale-105 transition-transform font-['Poppins']"
+            >
+              Reach out
+            </button>
+          </a>
         </div>
-        
-    </section>
-    <!--about me-->
-    <section class="min-h-screen w-full bg-[#FAF6E9]">
-      <!-- Left Side: Text -->
-      <div class="flex items-center justify-center p-8">
-        <div>
-          <h1 class="text-5xl  m-8 text-center font-['Poppins'] ">About Me</h1>
-          <div class="h-[95%] w-[95%] md:h-[75%] md:w-[70%] mx-auto  rounded-lg p-6  ">
-            <p class="text-lg text-gray-700 font-['Poppins']">I’m a Full-Stack Web Developer (MERN) with hands-on experience in building scalable and real-time web applications.
-
-              During my internship, I developed the complete backend for HOSLA, an NGO platform for senior citizens’ mental health, implementing secure JWT auth, REST APIs, and modular Express architecture. I also contributed to SHRADHAA, creating digital tools to support emotional well-being in elderly communities.
-              
-              Beyond internships, I’ve built projects like:
-              
-                  A real-time location tracker and routing system (Socket.IO + Leaflet)
-              
-                  A multiplayer chess game with socket.io and chess.js
-              
-                  LuxeCarry – an e-commerce app with Google OAuth, search, cart & JWT sessions,cloudinary and Stripe payment intregation
-              
-              Tech Stack: React.js, Node.js, Express.js, MongoDB, Socket.IO, Tailwind CSS, WebRTC, Git, Postman
-              
-              I’m passionate about solving real-world problems through clean, maintainable code.
-              
+      </section>
+      <!--about me-->
+      <section class="min-h-screen w-full bg-[#FAF6E9]">
+        <!-- Left Side: Text -->
+        <div class="flex items-center justify-center p-8">
+          <div>
+            <h1 class="text-5xl m-8 text-center font-['Poppins']">About Me</h1>
+            <div
+              class="h-[95%] w-[95%] md:h-[75%] md:w-[70%] mx-auto rounded-lg p-6"
+            >
+              <p class="text-lg text-gray-700 font-['Poppins']">
+                I’m a Full-Stack Web Developer (MERN) with hands-on experience
+                in building scalable and real-time web applications. During my
+                internship, I developed the complete backend for HOSLA, an NGO
+                platform for senior citizens’ mental health, implementing secure
+                JWT auth, REST APIs, and modular Express architecture. I also
+                contributed to SHRADHAA, creating digital tools to support
+                emotional well-being in elderly communities. Beyond internships,
+                I’ve built projects like: A real-time location tracker and
+                routing system (Socket.IO + Leaflet) A multiplayer chess game
+                with socket.io and chess.js LuxeCarry – an e-commerce app with
+                Google OAuth, search, cart & JWT sessions,cloudinary and Stripe
+                payment intregation Tech Stack: React.js, Node.js, Express.js,
+                MongoDB, Socket.IO, Tailwind CSS, WebRTC, Git, Postman I’m
+                passionate about solving real-world problems through clean,
+                maintainable code.
               </p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-  <!--experienc-->
- <!-- Experience & Education Section -->
-<section class="min-h-screen w-full bg-white p-8 font-['Poppins'] grid experience">
-  <div class="text-5xl md:text-6xl mb-8 md:mb-12">
-    <h1 class="font-['Poppins']">Experience & Education</h1>
-  </div>
-
-  <div class="flex flex-col justify-center">
-    <!-- Experience 1 -->
-    <ul class="grid grid-cols-[150px_1fr] gap-4 m-4 md:m-10 items-start">
-      <li class="text-sm font-['Poppins']">February 2025 – Present</li>
-      <li class="flex flex-col gap-2">
-        <h2 class="text-lg md:text-xl font-['Poppins']">Full-Stack Developer</h2>
-        <h4 class="md:text-md font-['Poppins']">Hosla and Shraddha Foundation</h4>
-      </li>
-    </ul>
-
-    <!-- Experience 2 -->
-    <ul class="grid grid-cols-[150px_1fr] gap-4 m-4 md:m-10 items-start">
-      <li class="text-sm font-['Poppins']">January 2025</li>
-      <li class="flex flex-col gap-2">
-        <h2 class="text-lg md:text-xl font-['Poppins']">Software Developer</h2>
-        <h4 class="md:text-md font-['Poppins']">CodSoft</h4>
-      </li>
-    </ul>
-
-    <!-- Education 1 -->
-    <ul class="grid grid-cols-[150px_1fr] gap-4 m-4 md:m-10 items-start">
-      <li class="text-sm font-['Poppins']">2025</li>
-      <li class="flex flex-col gap-2">
-        <h2 class="text-lg md:text-xl font-['Poppins']">B.Tech Computer Science</h2>
-        <h4 class="md:text-md font-['Poppins']">Kazi Nazrul University, Asansol</h4>
-      </li>
-    </ul>
-
-  </div>
-</section>
-<!--Skills-->
-<section class="grid skills min-h-screen w-full p-8 font-['Poppins'] gap-8 bg-[#FFFDF6]">
-  <div style="grid-area: heading">
-    <h1 class="text-center text-4xl md:text-6xl">Skills and Proficiencies</h1>
-  </div>
-  <div style="grid-area: content1" class="m-4 md:m-8">
-    <h2 class="text-xl font-semibold">Technical Skills</h2>
-    <p>React.js, Tailwind CSS, JavaScript (ES6+), HTML5, CSS3, Node.js, Express.js, Socket.IO, MongoDB, SQL, OOPs,Computer Networks, Git, GitHub, Postman</p>
-  </div>
-  <div style="grid-area: content2" class="m-4 md:m-8">
-    <h2 class="text-xl font-semibold">Languages</h2>
-    <p>English, Bengali, Hindi</p>
-  </div>
-</section>
-<!--projects-->
-<section class="min-h-screen w-full bg-[#98A1BC] p-8 font-['Poppins']">
-  <!-- heading -->
-  <h1 class="text-center text-4xl md:text-6xl mb-16 text-white">Featured Projects</h1>
-  
-  <!-- project grid -->
-  <div class=" project vara md:mt-20 lg:mt-28">
-    <!-- mini-card -->
-    <a href="https://luxecarry.onrender.com/" target="_blank" class="group block mx-auto mb-4" style="grid-area: one">
-      <div
-        class="flex flex-col rounded-xl overflow-hidden shadow-md
-               bg-white/90 backdrop-blur-sm transition
-               duration-300 hover:shadow-lg hover:-translate-y-1
-               max-w-xs md:max-w-sm"            
+      </section>
+      <!--experienc-->
+      <!-- Experience & Education Section -->
+      <section
+        class="min-h-screen w-full bg-white p-8 font-['Poppins'] grid experience"
       >
-        <!-- thumbnail -->
-        <img
-          src="./images/399439403-06ec57e9-536d-4543-bf01-2a18705f84c5.png"
-          alt="Project thumbnail"
-          class="w-full h-28 lg:h-32      <!-- smaller, responsive heights -->
-                 object-cover transition-transform duration-300
-                 group-hover:scale-105"
-        />
-  
-        <!-- description -->
-        <div class="p-3">
-          <p class="text-sm sm:text-sm leading-tight
-                    whitespace-normal break-words font-['Poppins']"> <!-- wraps long text -->
-            LuxeCarry is a fully-functional e-commerce platform built with
-            HTML, Tailwind CSS, and a Node.js&nbsp;/&nbsp;Express backend.
+        <div class="text-5xl md:text-6xl mb-8 md:mb-12">
+          <h1 class="font-['Poppins']">Experience & Education</h1>
+        </div>
+
+        <div class="flex flex-col justify-center">
+          <!-- Experience 1 -->
+          <ul class="grid grid-cols-[150px_1fr] gap-4 m-4 md:m-10 items-start">
+            <li class="text-sm font-['Poppins']">February 2025 – Present</li>
+            <li class="flex flex-col gap-2">
+              <h2 class="text-lg md:text-xl font-['Poppins']">
+                Full-Stack Developer
+              </h2>
+              <h4 class="md:text-md font-['Poppins']">
+                Hosla and Shraddha Foundation
+              </h4>
+            </li>
+          </ul>
+
+          <!-- Experience 2 -->
+          <ul class="grid grid-cols-[150px_1fr] gap-4 m-4 md:m-10 items-start">
+            <li class="text-sm font-['Poppins']">January 2025</li>
+            <li class="flex flex-col gap-2">
+              <h2 class="text-lg md:text-xl font-['Poppins']">
+                Software Developer
+              </h2>
+              <h4 class="md:text-md font-['Poppins']">CodSoft</h4>
+            </li>
+          </ul>
+
+          <!-- Education 1 -->
+          <ul class="grid grid-cols-[150px_1fr] gap-4 m-4 md:m-10 items-start">
+            <li class="text-sm font-['Poppins']">2025</li>
+            <li class="flex flex-col gap-2">
+              <h2 class="text-lg md:text-xl font-['Poppins']">
+                B.Tech Computer Science
+              </h2>
+              <h4 class="md:text-md font-['Poppins']">
+                Kazi Nazrul University, Asansol
+              </h4>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--Skills-->
+      <section
+        class="grid skills min-h-screen w-full p-8 font-['Poppins'] gap-8 bg-[#FFFDF6]"
+      >
+        <div style="grid-area: heading">
+          <h1 class="text-center text-4xl md:text-6xl">
+            Skills and Proficiencies
+          </h1>
+        </div>
+        <div style="grid-area: content1" class="m-4 md:m-8">
+          <h2 class="text-xl font-semibold">Technical Skills</h2>
+          <p>
+            React.js, Tailwind CSS, JavaScript (ES6+), HTML5, CSS3, Node.js,
+            Express.js, Socket.IO, MongoDB, SQL, OOPs,Computer Networks, Git,
+            GitHub, Postman
           </p>
         </div>
-      </div>
-    </a>
-    <a href="https://realtimelocationtracker-918r.onrender.com/" target="_blank" class="group block mx-auto mb-4" style="grid-area: two">
-      <div
-        class="flex flex-col rounded-xl overflow-hidden shadow-md
-               bg-white/90 backdrop-blur-sm transition
-               duration-300 hover:shadow-lg hover:-translate-y-1
-               max-w-xs md:max-w-sm"            
-      >
-        <!-- thumbnail -->
-        <img
-          src="./images/routing.png"
-          alt="Project thumbnail"
-          class="w-full h-28 lg:h-32      
-                 object-cover transition-transform duration-300
-                 group-hover:scale-105"
-        />
-  
-        <!-- description -->
-        <div class="p-3">
-          <p class="text-sm sm:text-sm leading-tight
-                    whitespace-normal break-words font-['Poppins']"> <!-- wraps long text -->
-                    Real-Time Location Tracking and Routing with Node.js, Express, Socket.IO, Leaflet, and Leaflet Routing
-          </p>
+        <div style="grid-area: content2" class="m-4 md:m-8">
+          <h2 class="text-xl font-semibold">Languages</h2>
+          <p>English, Bengali, Hindi</p>
         </div>
-      </div>
-    </a>
-    <a href="https://chesmate.onrender.com/" target="_blank" class="group block mx-auto mb-4" style="grid-area: three">
-      <div
-        class="flex flex-col rounded-xl overflow-hidden shadow-md
-               bg-white/90 backdrop-blur-sm transition
-               duration-300 hover:shadow-lg hover:-translate-y-1
-               max-w-xs md:max-w-sm"            
-      >
-        <!-- thumbnail -->
-        <img
-          src="./images/Pasted image (3).png"
-          alt="Project thumbnail"
-          class="w-full h-28 lg:h-32      
-                 object-cover transition-transform duration-300
-                 group-hover:scale-105"
-        />
-  
-        <!-- description -->
-        <div class="p-3">
-          <p class="text-sm sm:text-sm leading-tight
-                    whitespace-normal break-words font-['Poppins']"> <!-- wraps long text -->
-                    A real-time multiplayer chess application socket.io and chess.js with realtime player and spectator,with prevention of false moves
-          </p>
+      </section>
+      <!--projects-->
+      <section class="min-h-screen w-full bg-[#98A1BC] p-8 font-['Poppins']">
+        <!-- heading -->
+        <h1 class="text-center text-4xl md:text-6xl mb-16 text-white">
+          Featured Projects
+        </h1>
+
+        <!-- project grid -->
+        <div class="project vara md:mt-20 lg:mt-28">
+          <!-- mini-card -->
+          <a
+            href="https://luxecarry.onrender.com/"
+            target="_blank"
+            class="group block mx-auto mb-4"
+            style="grid-area: one"
+          >
+            <div
+              class="flex flex-col rounded-xl overflow-hidden shadow-md bg-white/90 backdrop-blur-sm transition duration-300 hover:shadow-lg hover:-translate-y-1 max-w-xs md:max-w-sm"
+            >
+              <!-- thumbnail -->
+              <img
+                src="./images/399439403-06ec57e9-536d-4543-bf01-2a18705f84c5.png"
+                alt="Project thumbnail"
+                class="w-full h-28 lg:h-32 <!-- smaller, responsive heights --> object-cover transition-transform duration-300 group-hover:scale-105"
+              />
+
+              <!-- description -->
+              <div class="p-3">
+                <p
+                  class="text-sm sm:text-sm leading-tight whitespace-normal break-words font-['Poppins']"
+                >
+                  <!-- wraps long text -->
+                  LuxeCarry is a fully-functional e-commerce platform built with
+                  HTML, Tailwind CSS, and a Node.js&nbsp;/&nbsp;Express backend.
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://realtimelocationtracker-918r.onrender.com/"
+            target="_blank"
+            class="group block mx-auto mb-4"
+            style="grid-area: two"
+          >
+            <div
+              class="flex flex-col rounded-xl overflow-hidden shadow-md bg-white/90 backdrop-blur-sm transition duration-300 hover:shadow-lg hover:-translate-y-1 max-w-xs md:max-w-sm"
+            >
+              <!-- thumbnail -->
+              <img
+                src="./images/routing.png"
+                alt="Project thumbnail"
+                class="w-full h-28 lg:h-32 object-cover transition-transform duration-300 group-hover:scale-105"
+              />
+
+              <!-- description -->
+              <div class="p-3">
+                <p
+                  class="text-sm sm:text-sm leading-tight whitespace-normal break-words font-['Poppins']"
+                >
+                  <!-- wraps long text -->
+                  Real-Time Location Tracking and Routing with Node.js, Express,
+                  Socket.IO, Leaflet, and Leaflet Routing
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://chesmate.onrender.com/"
+            target="_blank"
+            class="group block mx-auto mb-4"
+            style="grid-area: three"
+          >
+            <div
+              class="flex flex-col rounded-xl overflow-hidden shadow-md bg-white/90 backdrop-blur-sm transition duration-300 hover:shadow-lg hover:-translate-y-1 max-w-xs md:max-w-sm"
+            >
+              <!-- thumbnail -->
+              <img
+                src="./images/Pasted image (3).png"
+                alt="Project thumbnail"
+                class="w-full h-28 lg:h-32 object-cover transition-transform duration-300 group-hover:scale-105"
+              />
+
+              <!-- description -->
+              <div class="p-3">
+                <p
+                  class="text-sm sm:text-sm leading-tight whitespace-normal break-words font-['Poppins']"
+                >
+                  <!-- wraps long text -->
+                  A real-time multiplayer chess application socket.io and
+                  chess.js with realtime player and spectator,with prevention of
+                  false moves
+                </p>
+              </div>
+            </div>
+          </a>
         </div>
-      </div>
-    </a>
-  </div>
- <div class="w-full text-center mt-12 transition-transform duration-300 hover:scale-110">
-    <a href="https://github.com/Swapnaneelkund" target="_blank" rel="noopener noreferrer" class=" md:text-2xl text-xl w-full">View source code on github</a>
- </div>
-  <a href="https://github.com/Swapnaneelkund" target="_blank" rel="noopener noreferrer"><img class="w-[55px] mx-auto mt-1 transition-transform duration-300 hover:scale-110 " src="./images/github-mark.png" alt=""></a>
-  
-</section>
-<!--Hasnode-->
-<section class="min-h-screen w-full bg-[#FFFDF6] font-['Poppins'] p-2">
-  <div class="flex items-center gap-4 mt-8 mb-8 w-full justify-center">
-    <a href="https://hashnode.com/@swapnaneel" target="_blank" class="text-4xl font-semibold text-blue-800 hover:scale-110 transition-transform duration-300 font-['Poppins']">
-       Connect Hashnode
-    </a>
-  </div>
- <div class="hash grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 p-4">
-  <!-- Card 1 -->
-  <div class="card w-full h-auto p-4 bg-white rounded-lg shadow-md transition-transform duration-300 hover:scale-105" style="grid-area: one;">
- <a href="https://microservices-hosla.hashnode.dev/" target="_blank">
-      <h1 class="text-xl text-center font-semibold mb-4">My Backend Architecture Journey at Hosla</h1>
+        <div
+          class="w-full text-center mt-12 transition-transform duration-300 hover:scale-110"
+        >
+          <a
+            href="https://github.com/Swapnaneelkund"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="md:text-2xl text-xl w-full"
+            >View source code on github</a
+          >
+        </div>
+        <a
+          href="https://github.com/Swapnaneelkund"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img
+            class="w-[55px] mx-auto mt-1 transition-transform duration-300 hover:scale-110"
+            src="./images/github-mark.png"
+            alt=""
+        /></a>
+      </section>
+      <!--Hasnode-->
+      <section class="min-h-screen w-full bg-[#FFFDF6] font-['Poppins'] p-2">
+        <div class="flex items-center gap-4 mt-8 mb-8 w-full justify-center">
+          <a
+            href="https://hashnode.com/@swapnaneel"
+            target="_blank"
+            class="text-4xl font-semibold text-blue-800 hover:scale-110 transition-transform duration-300 font-['Poppins']"
+          >
+            Connect Hashnode
+          </a>
+        </div>
+        <div
+          class="hash grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 p-4"
+        >
+          <!-- Card 1 -->
+          <div
+            class="card w-full h-auto p-4 bg-white rounded-lg shadow-md transition-transform duration-300 hover:scale-105"
+            style="grid-area: one"
+          >
+            <a href="https://microservices-hosla.hashnode.dev/" target="_blank">
+              <h1 class="text-xl text-center font-semibold mb-4">
+                My Backend Architecture Journey at Hosla
+              </h1>
 
-      <p class="text-sm text-gray-700 leading-tight whitespace-normal break-words">
-      When you're building a real-world software product, especially in a team setting, your backend architecture often evolves with time. That’s exactly what happened to me while developing the backend for Hosla, a mental health platform that involves machine learning prediction, chatbots, user authentication, and social interactions.....
-    </p>
- </a>
-  </div>
+              <p
+                class="text-sm text-gray-700 leading-tight whitespace-normal break-words"
+              >
+                When you're building a real-world software product, especially
+                in a team setting, your backend architecture often evolves with
+                time. That’s exactly what happened to me while developing the
+                backend for Hosla, a mental health platform that involves
+                machine learning prediction, chatbots, user authentication, and
+                social interactions.....
+              </p>
+            </a>
+          </div>
 
-  <!-- Card 2 -->
- <div class="card w-full h-auto p-4 bg-white rounded-lg shadow-md transition-transform duration-300 hover:scale-105" style="grid-area: two; background-color: #7A7A73;">
- <a href="https://how-to-intregrate-cloudinary-in-node-js-app.hashnode.space" target="_blank">
-      <h1 class="text-xl text-center font-semibold mb-4 text-white">How to Integrate Stripe Payment Gateway in Node.js</h1>
+          <!-- Card 2 -->
+          <div
+            class="card w-full h-auto p-4 bg-white rounded-lg shadow-md transition-transform duration-300 hover:scale-105"
+            style="grid-area: two; background-color: #7a7a73"
+          >
+            <a
+              href="https://cloudinary-and-stripe-integration.hashnode.dev/how-to-integrate-stripe-payment-gateway"
+              target="_blank"
+            >
+              <h1 class="text-xl text-center font-semibold mb-4 text-white">
+                How to Integrate Stripe Payment Gateway in Node.js
+              </h1>
 
-      <p class="text-sm text-gray-700 leading-tight whitespace-normal break-words text-white">
- Stripe is one of the most popular and developer-friendly payment gateways available today. It enables you to accept online payments securely and effortlessly. In this tutorial, I’ll show you how to integrate Stripe into a Node.js backend application from scratch.
+              <p
+                class="text-sm text-gray-700 leading-tight whitespace-normal break-words text-white"
+              >
+                Stripe is one of the most popular and developer-friendly payment
+                gateways available today. It enables you to accept online
+                payments securely and effortlessly. In this tutorial, I’ll show
+                you how to integrate Stripe into a Node.js backend application
+                from scratch. By the end of this guide, you will be able to
+                accept payments via Stripe with a simple API endpoint.
+              </p>
+            </a>
+          </div>
 
- By the end of this guide, you will be able to accept payments via Stripe with a simple API endpoint.
+          <!-- Card 3 -->
+          <div
+            class="card w-full h-auto p-4 bg-white rounded-lg shadow-md transition-transform duration-300 hover:scale-105"
+            style="grid-area: three; background-color: #7f55b1"
+          >
+            <a
+              href="https://restructuring-my-ecom-fullstack-project.hashnode.dev/restructuring-my-personal-e-commerce-project-from-messy-to-modular"
+              target="_blank"
+            >
+              <div class="w-full flex justify-end p-2">
+                <img src="./images/pngwing.com.png" alt="" class="w-12 h-12" />
+              </div>
+              <h1 class="text-xl text-center font-semibold mb-4 text-white">
+                Restructuring my Ecom Fullstack Project Restructuring my Ecom
+                Fullstack Project
+              </h1>
+              <p
+                class="text-sm text-gray-700 leading-tight whitespace-normal break-words text-white"
+              >
+                Hey everyone, as I mentioned earlier, I used to work at HOSLA,
+                an NGO startup, where I made the complete back end of the mental
+                health service and also worked on all other services. After
+                working there and applying all my new learnings, when I looked
+                back, I found my personal project was kind of messy — not
+                modular, no custom errors, no custom logs, no global error
+                handler, no async handler (to wrap the function so if an error
+                arrives, it is sent to the global error handler) — just messy
+                try-and-catch blocks. No controllers, just doing all the tasks
+                in the router. I also had to add proper spacing and remove extra
+                commas.
+              </p>
+            </a>
+          </div>
+
+          <!-- Card 4 -->
+          <div
+            class="card w-full h-auto p-4 bg-white rounded-lg shadow-md transition-transform duration-300 hover:scale-105"
+            style="grid-area: four"
+          >
+            <a
+              href="https://cloudinary-and-stripe-integration.hashnode.dev/how-we-integrate-cloudinary"
+              target="_blank"
+            >
+              <h1 class="text-xl text-center font-semibold mb-4">
+                How we integrate Cloudinary with Multer in node js app saving
+                the url in MongoDB
+              </h1>
+
+              <p
+                class="text-sm text-gray-700 leading-tight whitespace-normal break-words"
+              >
+                Alright — let’s break it down step-by-step so you not only know
+                how to integrate Cloudinary with Multer in a Node.js app, but
+                also why each step is done, and how to store the image URL in
+                MongoDB. We’ll go through: Understanding the tech stack Project
+                setup Cloudinary configuration Multer setup Integration logic
+                Saving URL to MongoDB Example complete code Flow explanation 1️
+                Understanding the Stack Multer → Middleware for handling
+                multipart/form-data (file uploads) in Node.js. Cloudinary →
+                Cloud-based image & video storage service. MongoDB → Database to
+                store image metadata (like URLs) instead of the actual image
+                file. Mongoose → ODM for MongoDB. Flow: Client sends an image in
+                a POST request. Multer temporarily stores it in memory or a temp
+                folder. Cloudinary’s SDK uploads that image from memory/temp
+                folder to the cloud. Cloudinary returns a secure_url. Save that
+                URL in MongoDB. Cloudinary Configuration Go to Cloudinary →
+                Create a free account. Get your cloud name, API key, and API
+                secret from the Dashboard. Create .env file Multer Setup Here we
+                use memory storage so we can send the file directly to
+                Cloudinary without saving it locally.
+              </p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="min-h-screen w-full bg-[#F1F0E4] p-4 font-['Poppins']">
+        <h1 class="text-4xl md:text-5xl text-center pb-6 md:pb-12">
+          Trusted by Founders & Co-Workers
+        </h1>
+        <div class="w-full">
+          <img
+            src="./images/Pasted image.png"
+            class="h-[280px] md:h-[280px] md:w-[50%] w-95% rounded-xl mb-2 mx-auto hover:scale-105 transition-transform duration-300"
+            alt="recomedation from Co-Worker"
+          />
+          <img
+            src="./images/Screenshot from 2025-08-08 21-32-52.png"
+            class="h-[280px] md:h-[280px] md:w-[50%] w-95% rounded-xl mx-auto hover:scale-105 transition-transform duration-300"
+            alt="recomedation from Founder"
+          />
+        </div>
+      </section>
+    </main>
+    <footer
+      class="bg-black py-16 px-6 text-center text-white font-[Poppins,sans-serif]"
+    >
+      <h2 class="text-4xl font-bold mb-6 text-white tracking-wide">
+        Let's Connect
+      </h2>
+      <p class="text-lg text-gray-300 mb-10">
+        I'm always excited to connect with fellow developers, recruiters, and
+        creators. Reach out or explore more of my work:
       </p>
- </a>
- </div>
 
-  <!-- Card 3 -->
-  <div class="card w-full h-auto p-4 bg-white rounded-lg shadow-md transition-transform duration-300 hover:scale-105" style="grid-area: three; background-color: #7F55B1;">
-    <div class="w-full flex justify-end p-2">
-      <img src="./images/pngwing.com.png" alt="" class="w-12 h-12">
-    </div>
+      <div class="flex flex-wrap justify-center gap-6 mb-12 text-lg">
+        <a
+          href="https://hashnode.com/@swapnaneel"
+          target="_blank"
+          class="relative group text-cyan-400 font-medium"
+        >
+          Hashnode
+          <span
+            class="block w-0 h-0.5 bg-cyan-400 transition-all group-hover:w-full"
+          ></span>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/swapnaneel-kundu-8935751bb/"
+          target="_blank"
+          class="relative group text-blue-400 font-medium"
+        >
+          LinkedIn
+          <span
+            class="block w-0 h-0.5 bg-blue-400 transition-all group-hover:w-full"
+          ></span>
+        </a>
+        <a
+          href="https://x.com/KunduSwapnaneel"
+          target="_blank"
+          class="relative group text-sky-400 font-medium"
+        >
+          Twitter
+          <span
+            class="block w-0 h-0.5 bg-sky-400 transition-all group-hover:w-full"
+          ></span>
+        </a>
+        <a
+          href="https://github.com/Swapnaneelkund"
+          target="_blank"
+          class="relative group text-white font-medium"
+        >
+          GitHub
+          <span
+            class="block w-0 h-0.5 bg-sky-400 transition-all group-hover:w-full"
+          ></span>
+        </a>
+        <a
+          href="/resume.pdf"
+          download
+          class="relative group text-green-400 font-medium"
+        >
+          Download Resume
+          <span
+            class="block w-0 h-0.5 bg-green-400 transition-all group-hover:w-full"
+          ></span>
+        </a>
+      </div>
 
- <a href="https://restructuring-my-ecom-fullstack-project.hashnode.dev" target="_blank">
-      <h1 class="text-xl text-center font-semibold mb-4 text-white">Restructuring my Ecom Fullstack Project
- Restructuring my Ecom Fullstack Project</h1>
-      <p class="text-sm text-gray-700 leading-tight whitespace-normal break-words text-white">
- Hey everyone, as I mentioned earlier, I used to work at HOSLA, an NGO startup, where I made the complete back end of the mental health service and also worked on all other services. After working there and applying all my new learnings, when I looked back, I found my personal project was kind of messy — not modular, no custom errors, no custom logs, no global error handler, no async handler (to wrap the function so if an error arrives, it is sent to the global error handler) — just messy try-and-catch blocks. No controllers, just doing all the tasks in the router. I also had to add proper spacing and remove extra commas.
-    </p>
- </a>
-  </div>
-
-  <!-- Card 4 -->
-  <div class="card w-full h-auto p-4 bg-white rounded-lg shadow-md transition-transform duration-300 hover:scale-105" style="grid-area: four;">
- <a href="https://how-to-intregrate-cloudinary-in-node-js-app.hashnode.space" target="_blank">
-      <h1 class="text-xl text-center font-semibold mb-4">How we integrate Cloudinary with Multer in node js app saving the url in MongoDB</h1>
-
-      <p class="text-sm text-gray-700 leading-tight whitespace-normal break-words">
- Alright — let’s break it down step-by-step so you not only know how to integrate Cloudinary with Multer in a Node.js app, but also why each step is done, and how to store the image URL in MongoDB.
-
- We’ll go through:
-
-    Understanding the tech stack
-
-    Project setup
-
-    Cloudinary configuration
-
-    Multer setup
-
-    Integration logic
-
-    Saving URL to MongoDB
-
-    Example complete code
-
-    Flow explanation
- 1️ Understanding the Stack
-
-    Multer → Middleware for handling multipart/form-data (file uploads) in Node.js.
-
-    Cloudinary → Cloud-based image & video storage service.
-
-    MongoDB → Database to store image metadata (like URLs) instead of the actual image file.
-
-    Mongoose → ODM for MongoDB.
-
- Flow:
-
-    Client sends an image in a POST request.
-
-    Multer temporarily stores it in memory or a temp folder.
-
-    Cloudinary’s SDK uploads that image from memory/temp folder to the cloud.
-
-    Cloudinary returns a secure_url.
-
-    Save that URL in MongoDB.
-
- Cloudinary Configuration
-
-    Go to Cloudinary → Create a free account.
-
-    Get your cloud name, API key, and API secret from the Dashboard.
-
- Create .env file 
- Multer Setup
- Here we use memory storage so we can send the file directly to Cloudinary without saving it locally.
-
+      <blockquote
+        class="text-2xl italic text-gray-100 max-w-3xl mx-auto px-4 leading-relaxed"
+      >
+        “Code is not just instructions to a machine; it's a reflection of how we
+        think, solve, and create.”
+      </blockquote>
+      <p class="mt-4 text-gray-400 text-sm">
+        – A Passionate Software Developer
       </p>
- </a>
-  </div>
- </div>
-</section>
-<section class="min-h-screen w-full bg-[#F1F0E4] p-4 font-['Poppins']">
-  <h1 class="text-4xl md:text-5xl text-center pb-6 md:pb-12">Trusted by Founders & Co-Workers</h1>
-  <div class="w-full ">
-    <img src="./images/Pasted image.png" class="h-[280px] md:h-[280px] md:w-[50%] w-95% rounded-xl mb-2 mx-auto hover:scale-105 transition-transform duration-300" alt="recomedation from Co-Worker">
-    <img src="./images/Screenshot from 2025-08-08 21-32-52.png" class="h-[280px] md:h-[280px] md:w-[50%] w-95% rounded-xl mx-auto hover:scale-105 transition-transform duration-300" alt="recomedation from Founder">
-  </div>
-</section>
-</main>
-<footer class="bg-black py-16 px-6 text-center text-white font-[Poppins,sans-serif]">
-  <h2 class="text-4xl font-bold mb-6 text-white tracking-wide">Let's Connect</h2>
-  <p class="text-lg text-gray-300 mb-10">I'm always excited to connect with fellow developers, recruiters, and creators. Reach out or explore more of my work:</p>
+    </footer>
 
-  <div class="flex flex-wrap justify-center gap-6 mb-12 text-lg">
-    <a href="https://hashnode.com/@swapnaneel" target="_blank"
-       class="relative group text-cyan-400 font-medium">
-      Hashnode
-      <span class="block w-0 h-0.5 bg-cyan-400 transition-all group-hover:w-full"></span>
-    </a>
-    <a href="https://www.linkedin.com/in/swapnaneel-kundu-8935751bb/" target="_blank"
-       class="relative group text-blue-400 font-medium">
-      LinkedIn
-      <span class="block w-0 h-0.5 bg-blue-400 transition-all group-hover:w-full"></span>
-    </a>
-    <a href="https://x.com/KunduSwapnaneel" target="_blank"
-       class="relative group text-sky-400 font-medium">
-      Twitter
-      <span class="block w-0 h-0.5 bg-sky-400 transition-all group-hover:w-full"></span>
-    </a>
-      <a href="https://github.com/Swapnaneelkund" target="_blank"
-       class="relative group text-white font-medium">
-      GitHub
-      <span class="block w-0 h-0.5 bg-sky-400 transition-all group-hover:w-full"></span>
-    </a>
-    <a href="/resume.pdf" download
-       class="relative group text-green-400 font-medium">
-      Download Resume
-      <span class="block w-0 h-0.5 bg-green-400 transition-all group-hover:w-full"></span>
-    </a>
-  </div>
-
-  <blockquote class="text-2xl italic text-gray-100 max-w-3xl mx-auto px-4 leading-relaxed">
-    “Code is not just instructions to a machine; it's a reflection of how we think, solve, and create.”
-  </blockquote>
-  <p class="mt-4 text-gray-400 text-sm">– A Passionate Software Developer</p>
-</footer>
-
-<script src="./src/main.js"></script>
-</body>  
+    <script src="./src/main.js"></script>
+  </body>
 </html>
